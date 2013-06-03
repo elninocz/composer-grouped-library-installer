@@ -1,0 +1,16 @@
+{
+    "name": "koubas/grouped-library-installer",
+    "type": "composer-installer",
+    "authors": [
+        {
+            "name": "Jakub Husak",
+            "email": "husak.j@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"Koubas\\Composer\\Installer": "src/"}
+    },
+    "extra": {
+        "class": "Koubas\\Composer\\Installer\\GroupedLibraryInstaller"
+    }
+}
